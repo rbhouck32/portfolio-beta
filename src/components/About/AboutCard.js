@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Title, Paragraph } from "../Style";
+import { Card, Title, Paragraph } from "./Style";
 
 const AboutCard = () => {
   return (
@@ -10,7 +10,7 @@ const AboutCard = () => {
         to make a career change. For the last twelve years I have found myself
         exploring the Cleveland culinary scene. After many great years I decided
         I needed a change. In October of 2019 I decided to take a leap of faith
-        and enrolled in the Lambda School Full Stack Web Development program.
+        and enrolled in Lambda School's Full Stack Web Development program.
       </Paragraph>
     </Card>
   );
