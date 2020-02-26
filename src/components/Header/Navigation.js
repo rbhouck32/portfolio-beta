@@ -1,15 +1,19 @@
 import React from "react";
-import { Anchor, NavWrap } from "../Style";
+import { Anchor, NavWrap, NavCleanLink } from "../Style";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <NavWrap>
-      <Link to="/about">
+      <NavCleanLink to="/about">
         <Anchor>About</Anchor>
-      </Link>
-      <Anchor href="#">Skills</Anchor>
-      <Anchor href="#">Projects</Anchor>
+      </NavCleanLink>
+      <NavCleanLink to="/skills">
+        <Anchor>Skills</Anchor>
+      </NavCleanLink>
+      <NavCleanLink to="/projects">
+        <Anchor>Projects</Anchor>
+      </NavCleanLink>
     </NavWrap>
   );
 };
