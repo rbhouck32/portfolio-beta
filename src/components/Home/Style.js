@@ -10,12 +10,12 @@ export const Paragraph = styled.p`
 `;
 
 export const Card = styled.div`
-  width: 50vw;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
   position: absolute;
   top: 35%;
-  left: 25%;
+  opacity: 0.5;
   background-color: #eee;
   border-bottom: 1px solid #ccafaf;
   border-radius: 10px;

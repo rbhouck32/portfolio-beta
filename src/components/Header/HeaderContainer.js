@@ -29,7 +29,6 @@ const CleanLink = styled.a`
   text-shadow: 0px 4px 4px rgba(96, 96, 96, 0.25);
   :hover {
     color: #3b252c;
-    border-bottom: 3px solid #3b252c;
   }
 `;
 

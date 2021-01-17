@@ -51,3 +51,9 @@ export const ListLink = styled.a`
   padding: 0px 0px;
   letter-spacing: 2.5px;
 `;
+
+export const LogosCard = styled.div`
+  width: 100%;
+  height: 200px;
+  background-color: #eee;
+`;
