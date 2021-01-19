@@ -57,3 +57,4 @@ export const LogosCard = styled.div`
   height: 200px;
   background-color: #eee;
 `;
+export const newStyle = styled.div``;
